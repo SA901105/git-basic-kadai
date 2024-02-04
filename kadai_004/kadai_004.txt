@@ -1,0 +1,23 @@
+Last login: Sun Feb  4 14:53:37 on ttys000
+makiayaka@sugitatakukinoMacBook ~ % ls
+Applications	Documents	Library		Music		Public
+Desktop		Downloads	Movies		Pictures	git_tutorial
+makiayaka@sugitatakukinoMacBook ~ % cd Desktop
+makiayaka@sugitatakukinoMacBook Desktop % cd git_challenge
+makiayaka@sugitatakukinoMacBook git_challenge % git add git_challenge
+fatal: pathspec 'git_challenge' did not match any files
+makiayaka@sugitatakukinoMacBook git_challenge % git init
+Initialized empty Git repository in /Users/makiayaka/Desktop/git_challenge/.git/
+makiayaka@sugitatakukinoMacBook git_challenge % ls                 
+makiayaka@sugitatakukinoMacBook git_challenge % git commit -m "hello_world.txtを追加"
+[main (root-commit) 4bd9239] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+makiayaka@sugitatakukinoMacBook git_challenge % git add hello_world.txt              
+makiayaka@sugitatakukinoMacBook git_challenge % git commit -m "日本語訳を追記"       
+[main c7029ba] 日本語訳を追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+makiayaka@sugitatakukinoMacBook git_challenge % git log --oneline
+c7029ba (HEAD -> main) 日本語訳を追記
+4bd9239 hello_world.txtを追加
+makiayaka@sugitatakukinoMacBook git_challenge % 
